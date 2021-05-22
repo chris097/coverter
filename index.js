@@ -1,3 +1,4 @@
+console.log('Below is the result : FizzBuzz function')
 function checkYuGiOh(n) {
   if(typeof(n) === 'string') console.log(`${n} invalid parameter '${n}'`);
   else console.log('')
@@ -11,7 +12,11 @@ function checkYuGiOh(n) {
     else  console.log(i);
   }
 }
-checkYuGiOh(0);
+checkYuGiOh(10);
+
+console.log('')
+console.log('Below is the result : To Convert Fahr To Celsius function')
+console.log('')
 
 function convertFahrToCelsius(num) {
   let formular = (num - 32) * 5/9;
